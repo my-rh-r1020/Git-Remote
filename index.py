@@ -1,8 +1,11 @@
 # File ini untuk Testing GIT Remote
 
-print('WELCOME')
+name = input('Enter Your Name : ')
+print('Hello,', name, '\nHow are you today?')
 
-menu_mkn = input('Masukkan Menu Makanan Favorit :')
-print(menu_mkn)
-menu_minuman = input('Masukkan Menu Minuman Favorit :')
-print(menu_minuman)
+feel = input()
+print('Well great for you ^_^', name)
+
+print('How about your grade in previous semester?')
+grade = float(input())
+print('Awesome! I hope you can maintain your grade for next semester')
